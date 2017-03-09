@@ -20,15 +20,5 @@
   },
   "permissions": [
     "activeTab"
-  ],
-  "content_scripts": [
-    {
-      "matches": [
-        "*://*.quantopian.com/algorithms/*"
-      ],
-      "js": [
-        "src/inject/inject.js"
-      ]
-    }
   ]
 }
